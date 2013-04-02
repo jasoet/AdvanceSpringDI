@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans	
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- Bean instance gets created as a Singleton as a default. If you
+		want non-singleton instances, set "scope" attribute to "prototype". -->
+    <bean id="loggingBean" class="com.javapassion.examples.LoggingBean" scope="prototype" />
+</beans>
